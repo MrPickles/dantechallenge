@@ -70,5 +70,3 @@ _____
 1  1  1  1  1  1
 
 maximumWaterHeld = 0
-
-### Good Luck!
