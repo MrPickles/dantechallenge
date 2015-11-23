@@ -17,7 +17,9 @@ You can use the programming language of your choice. We have created a starter p
 1. Example One
 
 1  1  1
+
 1  2  1
+
 1  1  1
 
 maximumWaterHeld = 0
@@ -26,7 +28,9 @@ maximumWaterHeld = 0
 2. Example Two
 
 2  2  2  2
+
 2  1  1  2
+
 2  2  2  2
 
 maximumWaterHeld = 2
@@ -35,9 +39,13 @@ maximumWaterHeld = 2
 3. Example Three
 
 1  1  1  1  1  1
+
 1  4  4  4  4  1
+
 1  4  2  2  4  1
+
 1  4  4  4  4  1
+
 1  1  1  1  1  1
 
 maximumWaterHeld = 4
@@ -46,9 +54,13 @@ maximumWaterHeld = 4
 4. Example Four
 
 1  1  1  1  1  1
+
 1  4  4  4  4  1
+
 1  4  2  2  2  1  <- Note the difference compared to Example 3. The center region is not bounded!
+
 1  4  4  4  4  1
+
 1  1  1  1  1  1
 
 maximumWaterHeld = 0
