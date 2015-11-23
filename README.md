@@ -24,6 +24,8 @@ You can use the programming language of your choice. We have created a starter p
 
 maximumWaterHeld = 0
 
+_____
+
 
 * Example Two
 
@@ -34,6 +36,8 @@ maximumWaterHeld = 0
 2  2  2  2
 
 maximumWaterHeld = 2
+
+_____
 
 
 * Example Three
@@ -49,6 +53,8 @@ maximumWaterHeld = 2
 1  1  1  1  1  1
 
 maximumWaterHeld = 4
+
+_____
 
 
 * Example Four
