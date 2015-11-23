@@ -14,7 +14,7 @@ You can use the programming language of your choice. We have created a starter p
 
 ### Examples:
 
-1. Example One
+* Example One
 
 1  1  1
 
@@ -25,7 +25,7 @@ You can use the programming language of your choice. We have created a starter p
 maximumWaterHeld = 0
 
 
-2. Example Two
+* Example Two
 
 2  2  2  2
 
@@ -36,7 +36,7 @@ maximumWaterHeld = 0
 maximumWaterHeld = 2
 
 
-3. Example Three
+* Example Three
 
 1  1  1  1  1  1
 
@@ -51,7 +51,7 @@ maximumWaterHeld = 2
 maximumWaterHeld = 4
 
 
-4. Example Four
+* Example Four
 
 1  1  1  1  1  1
 
