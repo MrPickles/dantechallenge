@@ -6,50 +6,50 @@ You can use the programming language of your choice. We have created a starter p
 
 ### Consider the following details:
 
-(1) The integers in the matrix will be non-negative.
-(2) The integers do not need to be unique.
-(3) An index or region of the terrain can hold water if the values above, below, left and right of it are greater.
-(4) You'll be judged on efficiency and code style.
-(5) Comment your code.
+1. The integers in the matrix will be non-negative.
+2. The integers do not need to be unique.
+3. An index or region of the terrain can hold water if the values above, below, left and right of it are greater.
+4. You'll be judged on efficiency and code style.
+5. Comment your code.
 
 ### Examples:
 
 1. Example One
 
-1 | 1 | 1
-1 | 2 | 1
-1 | 1 | 1
+1  1  1
+1  2  1
+1  1  1
 
 maximumWaterHeld = 0
 
 
 2. Example Two
 
-2 | 2 | 2 | 2
-2 | 1 | 1 | 2
-2 | 2 | 2 | 2
+2  2  2  2
+2  1  1  2
+2  2  2  2
 
 maximumWaterHeld = 2
 
 
 3. Example Three
 
-1 | 1 | 1 | 1 | 1 | 1
-1 | 4 | 4 | 4 | 4 | 1
-1 | 4 | 2 | 2 | 4 | 1
-1 | 4 | 4 | 4 | 4 | 1
-1 | 1 | 1 | 1 | 1 | 1
+1  1  1  1  1  1
+1  4  4  4  4  1
+1  4  2  2  4  1
+1  4  4  4  4  1
+1  1  1  1  1  1
 
 maximumWaterHeld = 4
 
 
-4. Example Four (Note the difference compared to Example 3. The center region is not bounded!)
+4. Example Four
 
-1 | 1 | 1 | 1 | 1 | 1
-1 | 4 | 4 | 4 | 4 | 1
-1 | 4 | 2 | 2 | 2 | 1
-1 | 4 | 4 | 4 | 4 | 1
-1 | 1 | 1 | 1 | 1 | 1
+1  1  1  1  1  1
+1  4  4  4  4  1
+1  4  2  2  2  1  <- Note the difference compared to example 3. The center region is not bounded!
+1  4  4  4  4  1
+1  1  1  1  1  1
 
 maximumWaterHeld = 0
 
