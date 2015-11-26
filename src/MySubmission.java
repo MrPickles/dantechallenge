@@ -1,5 +1,11 @@
 package src;
 
+/**
+ * My submission for the Dante Challenge.
+ *
+ * @author Andrew Liu
+ *
+ */
 public class MySubmission implements DanteChallenge {
 
 	@Override
