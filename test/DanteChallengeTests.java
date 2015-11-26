@@ -208,4 +208,72 @@ public class DanteChallengeTests {
 
 		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
 	}
+
+	@Test
+	public void testExampleOne() {
+
+		int[][] testTerrain = new int[][] {
+			{ 1,  1,  1 },
+			{ 1,  2,  1 },
+			{ 1,  1,  1 }
+		};
+
+		int expectedResult = 0;
+
+		DanteChallenge submission = new MySubmission();
+
+		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
+	}
+
+	@Test
+	public void testExampleTwo() {
+
+		int[][] testTerrain = new int[][] {
+			{ 2,  2,  2,  2 },
+			{ 2,  1,  1,  2 },
+			{ 2,  2,  2,  2 }
+		};
+
+		int expectedResult = 2;
+
+		DanteChallenge submission = new MySubmission();
+
+		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
+	}
+
+	@Test
+	public void testExampleThree() {
+
+		int[][] testTerrain = new int[][] {
+			{ 1,  1,  1,  1,  1,  1 },
+			{ 1,  4,  4,  4,  4,  1 },
+			{ 1,  4,  2,  2,  4,  1 },
+			{ 1,  4,  4,  4,  4,  1 },
+			{ 1,  1,  1,  1,  1,  1 }
+		};
+
+		int expectedResult = 4;
+
+		DanteChallenge submission = new MySubmission();
+
+		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
+	}
+
+	@Test
+	public void testExampleFour() {
+
+		int[][] testTerrain = new int[][] {
+			{ 1,  1,  1,  1,  1,  1 },
+			{ 1,  4,  4,  4,  4,  1 },
+			{ 1,  4,  2,  2,  2,  1 },
+			{ 1,  4,  4,  4,  4,  1 },
+			{ 1,  1,  1,  1,  1,  1 }
+		};
+
+		int expectedResult = 0;
+
+		DanteChallenge submission = new MySubmission();
+
+		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
+	}
 }
