@@ -148,4 +148,64 @@ public class DanteChallengeTests {
 
 		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
 	}
+	
+	@Test
+	public void testReservoir() {
+
+		int[][] testTerrain = new int[][] {
+			{ 1,  1,  1,  1,  1,  1,  1 },
+			{ 1,  0,  0,  0,  0,  0,  1 },  // This row holds 5
+			{ 1,  0,  2,  2,  2,  0,  1 },  // This row holds 2
+			{ 1,  0,  2,  1,  2,  0,  1 },  // This row holds 3
+			{ 1,  0,  2,  2,  2,  0,  1 },  // This row holds 2
+			{ 1,  0,  0,  0,  0,  0,  1 },  // This row holds 5
+			{ 1,  1,  1,  1,  1,  1,  1 }
+		};
+
+		int expectedResult = 17;
+
+		DanteChallenge submission = new MySubmission();
+
+		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
+	}
+	
+	@Test
+	public void testSpiral() {
+
+		int[][] testTerrain = new int[][] {
+			{ 9,  9,  9,  9,  9,  9,  9 },
+			{ 8,  7,  6,  5,  4,  4,  9 },  // This row holds 14
+			{ 9,  9,  9,  9,  9,  3,  9 },  // This row holds 5
+			{ 9,  1,  1,  1,  0,  3,  9 },  // This row holds 34
+			{ 9,  2,  9,  9,  9,  3,  9 },  // This row holds 11
+			{ 9,  2,  2,  2,  2,  3,  9 },  // This row holds 29
+			{ 9,  9,  9,  9,  9,  9,  9 }
+		};
+
+		int expectedResult = 93;
+
+		DanteChallenge submission = new MySubmission();
+
+		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
+	}
+	
+	@Test
+	public void testSlantedEdges() {
+
+		int[][] testTerrain = new int[][] {
+			{ 9,  8,  7,  6,  5,  4,  3 },
+			{ 8,  0,  0,  0,  0,  0,  2 },  // This row holds 5
+			{ 7,  0,  0,  0,  0,  0,  1 },  // This row holds 5
+			{ 6,  0,  0,  0,  0,  0,  1 },  // This row holds 5
+			{ 5,  0,  0,  0,  0,  0,  1 },  // This row holds 5
+			{ 4,  0,  0,  0,  0,  0,  1 },  // This row holds 5
+			{ 3,  2,  1,  1,  1,  1,  1 }
+		};
+
+		int expectedResult = 25;
+
+		DanteChallenge submission = new MySubmission();
+
+		assertEquals(expectedResult, submission.determineMaximumWaterHeld(testTerrain));
+	}
 }
